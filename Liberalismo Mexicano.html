@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Liberalismo mexicano</title>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { margin: 0; font-family: Georgia, serif; background: #f7f5ee; color: #23302a; line-height: 1.6; }
+    .contenedor { max-width: 800px; margin: 0 auto; padding: 0 20px; }
+    h1, h2, h3 { font-family: Arial, sans-serif; color: #1f5c3a; }
+    h2 { border-bottom: 3px solid #c8553d; padding-bottom: 6px; margin-top: 50px; scroll-margin-top: 60px; }
+    img { max-width: 100%; border-radius: 4px; display: block; }
+    figure { margin: 15px 0; }
+    figcaption { font-size: 0.85em; color: #5f6f66; margin-top: 4px; }
+
+    /* Si una imagen no se encuentra, se muestra un recuadro con su descripción */
+    figure.sinimg::before {
+      content: "Imagen: " attr(data-alt);
+      display: block; padding: 40px 15px; text-align: center;
+      background: #e3eddf; border: 2px dashed #c8553d; border-radius: 4px;
+      color: #1f5c3a; font-family: Arial, sans-serif; font-size: 0.9em;
+    }
+
+    header { background: #1f5c3a; color: #f7f5ee; padding: 30px 0; text-align: center; }
+    header h1 { color: #f7f5ee; margin: 0 0 10px; font-size: 2.2em; }
+    header p { margin: 3px 0; }
+
+    nav { background: #153f28; position: sticky; top: 0; z-index: 10; text-align: center; padding: 8px 5px; }
+    nav a { color: #f7f5ee; text-decoration: none; font-family: Arial, sans-serif; font-size: 0.85em; margin: 0 7px; display: inline-block; padding: 2px 0; }
+    nav a:hover { color: #f4b9a6; text-decoration: underline; }
+
+    .banner { display: flex; justify-content: center; margin: 20px 0 0; }
+
+    .dos-col { display: flex; gap: 15px; flex-wrap: wrap; }
+    .dos-col figure { flex: 1 1 260px; margin: 15px 0; }
+
+    .caja { background: #e9f1e4; border-left: 5px solid #c8553d; padding: 10px 18px; margin: 15px 0; border-radius: 4px; }
+    .cita { font-style: italic; }
+
+    .linea { border-left: 4px solid #1f5c3a; padding-left: 20px; margin-left: 10px; }
+    .evento { margin-bottom: 25px; position: relative; }
+    .evento::before { content: ""; position: absolute; left: -29px; top: 6px; width: 12px; height: 12px; background: #c8553d; border: 2px solid #1f5c3a; border-radius: 50%; }
+    .evento strong { color: #1f5c3a; font-family: Arial, sans-serif; }
+
+    footer { background: #1f5c3a; color: #f7f5ee; text-align: center; padding: 15px; margin-top: 50px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Liberalismo mexicano</h1>
+    <p><strong>Estudiante:</strong> Mena Lara Leonel</p>
+    <p><strong>Grupo:</strong> 5AVPG</p>
+    <p><strong>Tema seleccionado:</strong> Liberalismo mexicano</p>
+  </header>
+
+  <nav>
+    <a href="#contexto">Contexto</a>
+    <a href="#causas">Causas</a>
+    <a href="#desarrollo">Desarrollo</a>
+    <a href="#personajes">Personajes</a>
+    <a href="#consecuencias">Consecuencias</a>
+    <a href="#linea">Línea del tiempo</a>
+    <a href="#conclusion">Conclusión</a>
+    <a href="#fuentes">Fuentes</a>
+  </nav>
+
+  <div class="contenedor">
+
+    <!-- Recurso gráfico propio: balanza de la justicia (SVG) -->
+    <div class="banner">
+      <svg width="90" height="80" viewBox="0 0 90 80" role="img" aria-label="Balanza de la justicia">
+        <g stroke="#1f5c3a" stroke-width="3" fill="none" stroke-linecap="round">
+          <line x1="45" y1="8" x2="45" y2="70"/>
+          <line x1="15" y1="20" x2="75" y2="20"/>
+          <line x1="15" y1="20" x2="6" y2="45"/><line x1="15" y1="20" x2="24" y2="45"/>
+          <line x1="75" y1="20" x2="66" y2="45"/><line x1="75" y1="20" x2="84" y2="45"/>
+          <path d="M4 45 Q15 58 26 45 Z" fill="#c8553d"/>
+          <path d="M64 45 Q75 58 86 45 Z" fill="#c8553d"/>
+          <line x1="30" y1="72" x2="60" y2="72"/>
+        </g>
+      </svg>
+    </div>
+
+    <section id="contexto">
+      <h2>1. Contexto histórico</h2>
+      <p>Antes del triunfo de la Reforma liberal a mediados del siglo XIX, México vivió un periodo de profunda crisis, inestabilidad extrema y rezago estructural tras su independencia en 1821. El país se encontraba atrapado en las dinámicas del "Antiguo Régimen" colonial.</p>
+      <p>Aunque México ya era independiente, seguían vigentes las estructuras de la Colonia: la Iglesia católica y el ejército conservaban fueros (tribunales y privilegios propios), la Iglesia era la mayor propietaria de tierras y bienes, y gran parte de la población vivía en la pobreza. A esto se sumaban los constantes cambios de gobierno, la falta de recursos del Estado, la pérdida de Texas (1836) y la derrota en la guerra contra Estados Unidos (1846-1848). Los liberales querían construir un Estado moderno; los conservadores querían conservar el orden heredado de la Colonia.</p>
+      <figure data-alt="Efectos siglo XIX"">
+        <img src="Efectos.jpg" alt="Efectos siglo XIX" onerror="this.parentNode.classList.add('sinimg');this.remove()">
+      </figure>
+    </section>
+
+    <section id="causas">
+      <h2>2. Causas</h2>
+      <ul>
+        <li><strong>Privilegios de la Iglesia y el ejército:</strong> los fueros eclesiástico y militar hacían que existieran ciudadanos con leyes y tribunales distintos, lo contrario a la igualdad ante la ley.</li>
+        <li><strong>Bienes de "manos muertas":</strong> la Iglesia acumulaba tierras y propiedades que no se vendían ni se hacían producir, lo que frenaba la economía.</li>
+        <li><strong>Inestabilidad política y crisis económica:</strong> los gobiernos duraban poco, el país estaba endeudado y no había un proyecto de nación común.</li>
+        <li><strong>Influencia de las ideas liberales:</strong> la Ilustración, la Revolución francesa y la Constitución de Estados Unidos inspiraron ideas de libertad, igualdad, propiedad individual y separación de poderes.</li>
+        <li><strong>Dictadura de Santa Anna (1853-1855):</strong> su gobierno autoritario provocó el rechazo de los liberales y desencadenó la revolución de Ayutla.</li>
+        <li><strong>Consecuencias de la guerra de 1847:</strong> la derrota ante Estados Unidos mostró la debilidad del país y convenció a muchos de que era necesario transformarlo.</li>
+      </ul>
+    </section>
+
+    <section id="desarrollo">
+      <h2>3. Desarrollo</h2>
+
+      <h3>1833-1834: Primer intento reformista</h3>
+      <p>Siendo vicepresidente en funciones, Valentín Gómez Farías, con el apoyo ideológico de José María Luis Mora, impulsó las primeras reformas liberales: redujo privilegios del clero y del ejército y buscó controlar la educación. Las reformas provocaron una fuerte reacción y Santa Anna las canceló en 1834.</p>
+      <figure data-alt="Valentín Gómez Farías">
+        <img src="ValentinGomezFarias.jpg" alt="Valentín Gómez Farías" onerror="this.parentNode.classList.add('sinimg');this.remove()">
+        <figcaption>Valentín Gómez Farías, impulsor de la primera reforma liberal.</figcaption>
+      </figure>
+
+      <h3>1854-1855: Plan de Ayutla</h3>
+      <p>En marzo de 1854 Florencio Villarreal proclamó el Plan de Ayutla, reformado después en Acapulco por Ignacio Comonfort. Con el apoyo de Juan Álvarez, el movimiento exigió el fin de la dictadura de Santa Anna, quien huyó del país en agosto de 1855. Juan Álvarez asumió la presidencia.</p>
+
+      <h3>1855-1856: Primeras leyes reformistas</h3>
+      <p>El gobierno liberal emitió leyes que atacaban los privilegios heredados de la Colonia:</p>
+      <ul>
+        <li><strong>Ley Juárez (1855):</strong> suprimió los tribunales especiales del clero y del ejército en asuntos civiles.</li>
+        <li><strong>Ley Lerdo (1856):</strong> obligó a la Iglesia y a las corporaciones civiles a vender sus propiedades (desamortización).</li>
+        <li><strong>Ley Iglesias (1857):</strong> reguló el cobro de derechos parroquiales.</li>
+      </ul>
+
+      <h3>1857: Constitución liberal</h3>
+      <p>El Congreso Constituyente promulgó la Constitución del 5 de febrero de 1857, que estableció una república representativa, democrática y federal, reconoció derechos individuales (libertad de expresión, de asociación, de enseñanza, igualdad ante la ley) y abolió la esclavitud y los fueros. No declaró la libertad de cultos, pero tampoco mantuvo la religión católica como religión oficial. La Iglesia y los conservadores la rechazaron.</p>
+      <figure data-alt="Constitución de 1857">
+        <img src="constitucion1857.jpg" alt="Constitución de 1857" onerror="this.parentNode.classList.add('sinimg');this.remove()">
+      </figure>
+
+      <h3>1858-1861: Guerra de Reforma (o de Tres Años)</h3>
+      <p>Con el Plan de Tacubaya (diciembre de 1857), el presidente Ignacio Comonfort se unió a los conservadores y desconoció la Constitución. Benito Juárez, como presidente de la Suprema Corte, asumió la presidencia en 1858 y encabezó un gobierno liberal itinerante que se estableció en Veracruz. Los conservadores formaron su propio gobierno en la Ciudad de México. La guerra civil terminó con el triunfo liberal en la batalla de Calpulalpan (diciembre de 1860).</p>
+      <figure data-alt="Batalla durante la Guerra de Reforma">
+        <img src="guerradereforma.jpg" alt="Batalla durante la Guerra de Reforma" onerror="this.parentNode.classList.add('sinimg');this.remove()">
+      </figure>
+
+      <h3>1859-1860: Leyes de Reforma</h3>
+      <p>Desde Veracruz, Juárez expidió las Leyes de Reforma, que consolidaron el proyecto liberal:</p>
+      <ul>
+        <li>Nacionalización de los bienes del clero.</li>
+        <li>Separación entre la Iglesia y el Estado.</li>
+        <li>Matrimonio civil y creación del Registro Civil.</li>
+        <li>Secularización de los cementerios.</li>
+        <li>Libertad de cultos (1860).</li>
+      </ul>
+      <figure data-alt="Leyes de Reforma">
+        <img src="leyesdereforma.png" alt="Leyes de Reforma" onerror="this.parentNode.classList.add('sinimg');this.remove()">
+      </figure>
+
+      <h3>1861-1867: Defensa de la República</h3>
+      <p>Tras suspender el pago de la deuda externa, Juárez enfrentó la intervención francesa y el Segundo Imperio de Maximiliano. Los liberales resistieron y, en 1867, con la caída del Imperio, se restauró la República. En 1873 las Leyes de Reforma se incorporaron a la Constitución durante el gobierno de Sebastián Lerdo de Tejada.</p>
+    </section>
+
+    <section id="personajes">
+      <h2>4. Personajes y grupos</h2>
+      <ul>
+        <li><strong>Liberales:</strong> grupo que buscaba un Estado moderno, laico, con igualdad ante la ley y propiedad individual. Se dividían en <em>moderados</em> (reformas graduales) y <em>puros</em> o radicales (cambios profundos y rápidos).</li>
+        <li><strong>Conservadores:</strong> defendían el orden heredado de la Colonia, los privilegios de la Iglesia y del ejército y, en algunos casos, la monarquía. Entre sus líderes estuvieron Lucas Alamán, Félix Zuloaga y Miguel Miramón.</li>
+        <li><strong>La Iglesia católica y el ejército:</strong> corporaciones con fueros y propiedades que se oponían a las reformas.</li>
+        <li><strong>Valentín Gómez Farías y José María Luis Mora:</strong> precursores del liberalismo y autores de las reformas de 1833.</li>
+        <li><strong>Juan Álvarez e Ignacio Comonfort:</strong> encabezaron la revolución de Ayutla; ambos fueron presidentes.</li>
+        <li><strong>Benito Juárez:</strong> máximo líder liberal; autor de la Ley Juárez y presidente durante la Guerra de Reforma y la intervención francesa.</li>
+        <li><strong>Melchor Ocampo y Miguel Lerdo de Tejada:</strong> colaboradores de Juárez; Ocampo impulsó la ley del matrimonio civil y Lerdo de Tejada la ley de desamortización.</li>
+        <li><strong>Ignacio Ramírez, Ponciano Arriaga y Guillermo Prieto:</strong> intelectuales y diputados constituyentes de 1857.</li>
+      </ul>
+      <div class="dos-col">
+        <figure data-alt="Benito Juárez">
+          <img src="juarez.webp" alt="Benito Juárez" onerror="this.parentNode.classList.add('sinimg');this.remove()">
+          <figcaption>Benito Juárez.</figcaption>
+        </figure>
+        <figure data-alt="Melchor Ocampo">
+          <img src="ocampo.png" alt="Melchor Ocampo" onerror="this.parentNode.classList.add('sinimg');this.remove()">
+          <figcaption>Melchor Ocampo.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="consecuencias">
+      <h2>5. Consecuencias</h2>
+      <ul>
+        <li><strong>Políticas:</strong> se consolidó un Estado laico, con separación entre Iglesia y Estado, y se estableció la igualdad ante la ley. Los liberales salieron fortalecidos y se restauró la República en 1867.</li>
+        <li><strong>Económicas:</strong> la desamortización buscó poner en circulación las propiedades de la Iglesia, pero también afectó a las tierras comunales de los pueblos indígenas y favoreció la concentración de tierras en pocas manos (latifundios).</li>
+        <li><strong>Sociales:</strong> se creó el Registro Civil, el matrimonio civil y se secularizaron los cementerios; se reconocieron libertades individuales y se impulsó la educación laica.</li>
+        <li><strong>Territoriales:</strong> no hubo cambios en el territorio, pero la guerra civil debilitó al país y contribuyó a la intervención francesa de 1862.</li>
+        <li><strong>Jurídicas:</strong> la Constitución de 1857 y las Leyes de Reforma sentaron las bases del México moderno y fueron antecedente de la Constitución de 1917.</li>
+      </ul>
+    </section>
+
+    <section id="linea">
+      <h2>6. Línea del tiempo</h2>
+      <div class="linea">
+        <div class="evento"><strong>1821</strong><br>Consumación de la independencia de México.</div>
+        <div class="evento"><strong>1833-1834</strong><br>Reformas de Valentín Gómez Farías.</div>
+        <div class="evento"><strong>1846-1848</strong><br>Guerra con Estados Unidos.</div>
+        <div class="evento"><strong>1854</strong><br>Plan de Ayutla contra Santa Anna.</div>
+        <div class="evento"><strong>1855</strong><br>Caída de Santa Anna y Ley Juárez.</div>
+        <div class="evento"><strong>1856</strong><br>Ley Lerdo (desamortización de bienes).</div>
+        <div class="evento"><strong>5 de febrero de 1857</strong><br>Promulgación de la Constitución liberal.</div>
+        <div class="evento"><strong>1858-1861</strong><br>Guerra de Reforma.</div>
+        <div class="evento"><strong>1859-1860</strong><br>Leyes de Reforma.</div>
+        <div class="evento"><strong>1861</strong><br>Juárez entra a la Ciudad de México.</div>
+        <div class="evento"><strong>1862-1867</strong><br>Intervención francesa y Segundo Imperio.</div>
+        <div class="evento"><strong>1867</strong><br>Restauración de la República.</div>
+        <div class="evento"><strong>1873</strong><br>Las Leyes de Reforma se elevan a rango constitucional.</div>
+      </div>
+    </section>
+
+    <section id="conclusion">
+      <h2>7. Conclusión</h2>
+      <p><strong>¿Por qué considero importante conocer este proceso histórico para comprender la historia de México?</strong></p>
+      <p>Considero importante conocer el liberalismo mexicano porque explica cómo México dejó atrás las estructuras heredadas de la Colonia para convertirse en un país con leyes iguales para todos. Gracias a este proceso se establecieron derechos como la libertad de expresión, la igualdad ante la ley y la separación entre la Iglesia y el Estado, que hoy forman parte de nuestra vida diaria.</p>
+      <p>También permite entender que los cambios no fueron sencillos: provocaron una guerra civil y algunas medidas, como la desamortización, perjudicaron a las comunidades indígenas. Analizar estos aciertos y errores nos ayuda a comprender nuestra identidad como nación y a valorar la importancia de defender nuestros derechos y nuestras instituciones.</p>
+    </section>
+
+    <section id="fuentes">
+      <h2>8. Fuentes</h2>
+      <ul>
+        <li>Apuntes de clase.</li>
+        <li>Martínez Ávila, P. (2025). Conciencia Histórica II. México durante el expansionismo capitalista (1.ª ed.). Bluebooks & Magnus.</li>
+        <li>Congreso Constituyente. (1857). Constitución Federal de los Estados Unidos Mexicanos.</li>
+        <li>Vázquez, J. Z. (Coord.). (2004). Nueva historia mínima de México. El Colegio de México.</li>
+      </ul>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>Conciencia Histórica II</p>
+  </footer>
+
+</body>
+</html>
